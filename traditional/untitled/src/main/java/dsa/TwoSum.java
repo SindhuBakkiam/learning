@@ -12,6 +12,7 @@ public class TwoSum {
             int x = target-sums[i];
            if(map.containsKey(x)){
               res[0]= map.get(x);
+
               res[1]=i;
            }else{
                map.put(sums[i],i);
